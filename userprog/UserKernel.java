@@ -35,7 +35,7 @@ public class UserKernel extends ThreadedKernel {
     		public void run() { exceptionHandler(); }
 	    });
     	
-    	Lib.assertTrue(availablePages.isEmpty());
+    	//Lib.assertTrue(availablePages.isEmpty());
     	availablePages = new LinkedList<Integer>();
     	
     	while(availablePages.size() < Machine.processor().getNumPhysPages())

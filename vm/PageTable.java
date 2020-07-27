@@ -5,7 +5,10 @@ import java.util.HashMap;
 import nachos.machine.Lib;
 import nachos.machine.Machine;
 import nachos.machine.TranslationEntry;
-
+/*
+ * The code in this program is not Mine! It significantly adheres to the code that was made by Ke Xu. The code for the completion of
+ * Programming Assignment 3 is in this link: https://github.com/kanrourou/nachos/blob/master/vm/PageTable.java
+ */
 public class PageTable {
 
 	private HashMap<PidAndVpn,TranslationEntry> table;

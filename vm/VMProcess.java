@@ -8,6 +8,10 @@ import nachos.threads.Lock;
 import java.util.*;
 import java.io.EOFException;
 
+/*
+ * The additional code in this program is not Mine! It significantly adheres to the code that was made by Ke Xu. The code for the completion of
+ * Programming Assignment 3 is in this link: https://github.com/kanrourou/nachos/blob/master/vm/VMProcess.java
+ */
 /**
  * A <tt>UserProcess</tt> that supports demand-paging.
  */
